@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font: 13px black;
+    text-decoration: none;
+}
+
+.left-header {
+    
+}
+
+.right-header {
+    
+}
+
+.header:hover {
+    text-decoration: underline;
+}
