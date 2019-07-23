@@ -1,0 +1,1 @@
+This is a practice project that replicates the looks of the Google search engine with the intentions of improving my skills in HTML and CSS.
