@@ -2,19 +2,39 @@
     font-family: Arial, sans-serif;
 }
 
-.header {
+header {
     font: 13px black;
+}
+
+header a {
     text-decoration: none;
+
 }
 
-.left-header {
-    
-}
-
-.right-header {
-    
-}
-
-.header:hover {
+a:hover {
     text-decoration: underline;
+}
+
+
+
+main {
+}
+
+main img {
+    display: block;
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    margin: 89px auto 0;
+}
+
+
+footer {
+    display: block;
+    position: absolute;
+    background-color: rgb(242, 242, 242);
+    height: 35px;
+    width: 100%;
+    min-width: 1139px;
+    bottom: 0;
 }
