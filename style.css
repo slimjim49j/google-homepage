@@ -1,24 +1,73 @@
 * {
-    font-family: Arial, sans-serif;
+    font: 13px Arial, sans-serif;
+    color: black;
 }
+
+
+
+/*   H E A D E R   */
 
 header {
-    font: 13px black;
-}
-
-header a {
-    text-decoration: none;
-
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+header div {
+    display: inline-block;
+}
 
+.left-header {
+    float: left;
+}
+
+.right-header {
+    float: right;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#google-apps {
+    height: 30px;
+    width: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+}
+
+#sign-in {
+    height: 28px;
+    width: 43.344px;
+    padding: 0 12px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    cursor: default;
+    color: #fff;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    font-weight: bold;
+    line-height: 28px;
+    text-decoration: none;
+    outline: none;
+
+}
+
+
+
+/*   M A I N   */
 
 main {
+    text-align: center;
+
 }
+
+
 
 main img {
     display: block;
@@ -28,6 +77,18 @@ main img {
     margin: 89px auto 0;
 }
 
+form div {
+    display: block;
+}
+
+form {
+}
+
+input {
+}
+
+
+/*   F O O T E R   */
 
 footer {
     display: block;
