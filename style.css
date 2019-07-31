@@ -8,30 +8,55 @@
 /*   H E A D E R   */
 
 header {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 16px;
     width: 100%;
-}
-
-a:hover {
-    text-decoration: underline;
+    height: 30px;
 }
 
 header div {
     display: inline-block;
 }
 
+
+
+/* header divs */
+.right-header, .left-header {
+    display: flex;
+    align-items: center;
+}
+
 .left-header {
     float: left;
+    height: 100%;
 }
 
 .right-header {
     float: right;
+    padding: 0 30px;
+}
+
+
+
+/* heading anchors */
+.left-header a {
+    padding: 0 0 0 15px;
 }
 
 header a {
     text-decoration: none;
     display: inline-block;
+    opacity: 0.75;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* specific */
+#images {
+    margin: 0 15px;
 }
 
 #google-apps {
@@ -48,14 +73,18 @@ header a {
     padding: 0 12px;
     border: 1px solid #4285f4;
     border-radius: 2px;
+    margin: 0 0 0 15px;
+    outline: none;
+    
     cursor: default;
+
+    opacity: 1;
     color: #fff;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+
     font-weight: bold;
     line-height: 28px;
     text-decoration: none;
-    outline: none;
-
 }
 
 
@@ -99,3 +128,10 @@ footer {
     min-width: 1139px;
     bottom: 0;
 }
+
+/* Issues
+
+- sign in color is too light for some reason
+- header text seems to small
+
+*/
