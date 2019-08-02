@@ -3,7 +3,9 @@
     color: black;
 }
 
-
+a:hover {
+    text-decoration: underline;
+}
 
 /*   H E A D E R   */
 
@@ -49,9 +51,6 @@ header a {
     opacity: 0.75;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 
 /* specific */
@@ -113,7 +112,65 @@ form div {
 form {
 }
 
-input {
+input[type="submit" i] {
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 30px 4px 11px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+
+    background-color: #f8f8f8;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    color: #5F6368;
+
+    font: 400 13.3333px Arial;
+    line-height: 27px;
+}
+
+input[type="submit" i]:hover {
+    border: 1px solid #c6c6c6;
+}
+
+
+/* specific */
+#search-div {
+    height: 44px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 30px auto 0;
+
+    background: #fff;
+    
+
+}
+
+#search-div input {
+    height: 34px;
+    width: 514px;
+    
+    border: none;
+    outline: none;
+    
+
+    font: 16px Arial, sans-serif;
+    line-height: 34px;
+
+    cursor: text;
+}
+#microphone {
+    height: 24px;
+    width: 24px;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    background-size: 24px;    
+
+    cursor: pointer;
 }
 
 
@@ -122,16 +179,48 @@ input {
 footer {
     display: block;
     position: absolute;
-    background-color: rgb(242, 242, 242);
+
+    background-color: rgb(242, 242, 242); /* rgb? */
+
     height: 35px;
     width: 100%;
     min-width: 1139px;
     bottom: 0;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    display: inline-block;
+
+    padding-left: 27px;
+
+    font-size: small;
+    line-height: 40px;
+    text-decoration: none;
+
+    color: #5f6368;
+}
+
+.left-footer, .right-footer {
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+}
+
+.right-footer {
+    padding-right: 27px;
+    float: right;
 }
 
 /* Issues
 
 - sign in color is too light for some reason
 - header text seems to small
+- microphone and input are a little off
 
+- there are scroll bars for some reason on the top and bottom
+- might be some unnecessary styling in footer
+- footer might be a little off
+
+- overall pretty good though
 */
