@@ -68,7 +68,7 @@ header a {
 
 #sign-in {
     height: 28px;
-    width: 43.344px;
+    width: 45px;
     padding: 0 12px;
     border: 1px solid #4285f4;
     border-radius: 2px;
@@ -221,6 +221,7 @@ footer a {
 - there are scroll bars for some reason on the top and bottom
 - might be some unnecessary styling in footer
 - footer might be a little off
+- hover highlighting on search bar div
 
 - overall pretty good though
 */
